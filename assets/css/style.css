@@ -327,9 +327,9 @@ tbody tr:nth-child(even){background:#f4f8f2}
   .top-inner{min-height:61px;flex-wrap:wrap;padding-block:7px}
   .top-inner nav{order:3;flex:1 0 100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-block-end:5px}
   .top-inner nav a{display:grid;place-items:center;min-height:44px}
-  .enhanced .top-inner nav{position:absolute;z-index:4;inset:100% 0 auto;margin:0;padding:10px 20px;background:#092c22;border-bottom:1px solid #aeecc540;transform-origin:top;box-shadow:0 10px 20px #07180c4d}
-  .enhanced .top-inner nav.menu-ready{transition:opacity var(--speed),transform var(--speed),visibility var(--speed)}
-  .enhanced .top-inner nav:not(.is-open){opacity:0;transform:translateY(-9px);visibility:hidden;pointer-events:none}
+  .js .top-inner nav{position:absolute;z-index:4;inset:100% 0 auto;margin:0;padding:10px 20px;background:#092c22;border-bottom:1px solid #aeecc540;transform-origin:top;box-shadow:0 10px 20px #07180c4d}
+  .js .top-inner nav.menu-ready{transition:opacity var(--speed),transform var(--speed),visibility var(--speed)}
+  .js .top-inner nav:not(.is-open){opacity:0;transform:translateY(-9px);visibility:hidden;pointer-events:none}
   .top-community{margin-inline-start:auto;order:1}
   .menu-toggle{order:2}
   .hero-grid{gap:33px}
